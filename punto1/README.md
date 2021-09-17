@@ -1,26 +1,18 @@
 # PRUEBAS BACKEND TECLOGI
 
-## Objetivo
 
-Con el objetivo de preparar el examen final del segundo tercio, por favor siga las siguientes instrucciones.
+## Solución
 
-1. Explore el API de OpenWeather en el siguiente [enlace](https://openweathermap.org/ ).
-2. Use la colección de Postman adjunta para validar el funcionamiento del endpoint por fuera de la página de OpenWeather.
-
-## Descripción del Problema a Solucionar
-
-
-La arquitectura debe tener las siguientes características.
-
+Esta arquitectura cuenta con las siguientes caracteristicas.
 1. Se creo un cliente web asincrono que usa servicios REST
 2. Se emplearon protocolos de comunicación sobre HTTP
 3. Los formatos de los mensajes de intercambio son siempre JSON.
-4. La aplicación estará desplegada en Heroku.
-5. El servidor de Heroku servirá como un gateway para encapsular llamadas a otros servicios Web externos.
 
-AJUSTE LOS DIAGRAMAS DE ARQUITECTURA QUE SEAN NECESARIOS PARA REFLEJAR LAS DESICIONES DE ARQUITECTURA QUE TOMO SOBRE EL DESARROLLO DEL PARCIAL.
 
-![](Resources/DiagramaPuntoUno.png)
+* Diagrama
+![](Resources/Diagrama.png)
+
+####Explicación de ejecución 
 
 * Como se hace la petición desde postman ejecutando el programa localmente
 ```
@@ -82,10 +74,11 @@ AJUSTE LOS DIAGRAMAS DE ARQUITECTURA QUE SEAN NECESARIOS PARA REFLEJAR LAS DESIC
 }
 ```
 
-[![DespliegueHeroku](https://www.herokucdn.com/deploy/button.png)](https://laiton-arsw-t2.herokuapp.com)
 
 ## Elaborado por:
-   Santiago Agustin Laiton Cubides
+   - Santiago Agustin Laiton Cubides
+   - Santiago.laitoncubides@hotmail.com
+
 
 
 
