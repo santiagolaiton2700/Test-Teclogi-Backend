@@ -14,7 +14,6 @@ import teclogi.prueba.backend.punto1.model.City;
 public class WeatherServiceImpl implements WeatherService {
     @Autowired
     @Qualifier("ConsultarApiImpl")
-
     ConsultApi consultApi;
     @Override
     public City getCityByname(String name) throws JsonSyntaxException, UnirestException {

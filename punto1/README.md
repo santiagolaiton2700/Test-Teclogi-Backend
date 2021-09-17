@@ -21,7 +21,7 @@ Esta arquitectura cuenta con las siguientes caracteristicas.
 * Ejemplo :
   ![](Resources/Get.png)
 
-* Entreda
+* Entrada
 
 ```
  - http://localhost:8080/weather/Spain
