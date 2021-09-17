@@ -12,7 +12,7 @@ Esta arquitectura cuenta con las siguientes caracteristicas.
 * Diagrama
 ![](Resources/Diagrama.png)
 
-####Explicación de ejecución 
+#### Explicación de ejecución 
 
 * Como se hace la petición desde postman ejecutando el programa localmente
 ```
