@@ -9,10 +9,10 @@ import org.springframework.context.annotation.ComponentScan;
  * Clase principal
  * @Author Santiago Agustin Laiton Cubides
  */
-public class Punto1Application {
+public class PuntoUnoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Punto1Application.class, args);
+		SpringApplication.run(PuntoUnoApplication.class, args);
 	}
 
 }
