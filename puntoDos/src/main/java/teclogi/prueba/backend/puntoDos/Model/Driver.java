@@ -1,5 +1,11 @@
 package teclogi.prueba.backend.puntoDos.Model;
 
+
+/**
+ * Esta clase define el objeto de conductor el cual tiene la información de el
+ * @author Santiago Agustin Laiton Cubides
+ * @version 20/09/2021
+ */
 public class Driver {
     private String documentTypeId;
     private String documentTypeName;
@@ -7,6 +13,14 @@ public class Driver {
     private String name;
     public Driver() {
     }
+
+    /**
+     * Constructor del conductor
+     * @param documentTypeId Tipo de documento
+     * @param documentTypeName Nombre del tipo de documento
+     * @param document Numero de identificación
+     * @param name Nombre del conductor
+     */
     public Driver(String documentTypeId, String documentTypeName, String document, String name) {
         this.documentTypeId = documentTypeId;
         this.documentTypeName = documentTypeName;

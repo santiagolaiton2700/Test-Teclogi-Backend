@@ -1,5 +1,11 @@
 package teclogi.prueba.backend.puntoDos.Model;
 
+
+/**
+ * Esta clase define el objeto de dueño el cual tiene la información de el
+ * @author Santiago Agustin Laiton Cubides
+ * @version 20/09/2021
+ */
 public class Owner {
     private String documentTypeId;
     private String documentTypeName;
@@ -8,6 +14,15 @@ public class Owner {
 
     public Owner() {
     }
+
+
+    /**
+     * Constructor del conductor
+     * @param documentTypeId Tipo de documento
+     * @param documentTypeName Nombre del tipo de documento
+     * @param document Numero de identificación
+     * @param name Nombre del propietario
+     */
 
     public Owner(String documentTypeId, String documentTypeName, String document, String name) {
         this.documentTypeId = documentTypeId;

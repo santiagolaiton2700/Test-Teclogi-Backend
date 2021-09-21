@@ -18,6 +18,11 @@ public class CarServiceImpl implements CarService {
     @Qualifier("ConsultarApiImpl")
     ConsultApi consultApi;
     @Override
+    /**
+     * Implementación del servicio, se creo un lista como estructura de datos para comprobar que el json coincidia con el modelo, ya que el post no no pudo ser implementado
+     * Santiago Agustin Lation Cubides
+     * 20/09/2021
+     */
     public void saveCar(Car car) throws UnirestException {
         try{
             consultApi.saveCar(car);

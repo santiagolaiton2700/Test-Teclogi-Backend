@@ -19,12 +19,10 @@ public class CarController {
     @Autowired
     @Qualifier("CarService")
     private CarService carService;
-
-
-    @RequestMapping(method = RequestMethod.POST)
-    public ResponseEntity<?> saveProduct(@RequestBody Car car) {
-        try
-        {
+    @RequestMapping(value = "/registrar/", headers = "tokenUser=E630C3F619EC42164D17FBA99731D8624D332936D43420845CC214E501D122B3", method = RequestMethod.POST)
+    @ResponseBody
+    public ResponseEntity<?> saveCar(@RequestBody Car car) {
+        try {
             carService.saveCar(car);
             return new ResponseEntity<>(HttpStatus.OK);
         }catch (Exception ex) {
@@ -49,7 +47,6 @@ public class CarController {
     public ResponseEntity<?> getCars() {
         try
         {
-
             return new ResponseEntity<>(carService.getCars(),HttpStatus.OK);
         }catch (Exception ex) {
             Logger.getLogger(CarController.class.getName()).log(Level.SEVERE, null, ex);
